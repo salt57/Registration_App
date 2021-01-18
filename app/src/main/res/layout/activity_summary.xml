@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="48dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/card_view_background"
+            app:cardCornerRadius="16dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_view_congratulations_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center_horizontal"
+                    android:text="@string/summary_congratulations_text"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/text_view_summary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_view_congratulations_text"
+                    android:layout_margin="12dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp"
+                    tools:text="Test meglkdsnmgklnedlkgnledmgmklenglkengkegnkdmegklmedkmeamGLmkemg" />
+
+                <TextView
+                    android:id="@+id/text_view_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_view_summary_text"
+                    android:textColor="@color/clickable_text_color"
+                    android:layout_margin="12dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp"
+                    tools:text="Test meglkdsnmgklnedlkgnledmgmklenglkengkegnkdmegklmedkmeamGLmkemg" />
+
+                <TextView
+                    android:id="@+id/text_view_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_view_email"
+                    android:textColor="@color/clickable_text_color"
+                    android:layout_margin="12dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp"
+                    tools:text="Test meglkdsnmgklnedlkgnledmgmklenglkengkegnkdmegklmedkmeamGLmkemg" />
+
+                <TextView
+                    android:id="@+id/text_view_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_view_phone"
+                    android:layout_margin="12dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp"
+                    tools:text="Test meglkdsnmgklnedlkgnledmgmklenglkengkegnkdmegklmedkmeamGLmkemg" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
